@@ -6,6 +6,7 @@ namespace problem {
 
 auto solution = new problem::Solution();
 
-TEST_CASE("xxxxxxxxxxx") {
+TEST_CASE("1") {
   CHECK((solution->mergeAlternately("abc", "pqr")) == "apbqcr");
 }
+//xmake test 1768/交替合并字符串
