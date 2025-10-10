@@ -10,21 +10,14 @@ using namespace std;
 class Solution {
 public:
   char findTheDifference(string s, string t) {
-    int len1 = s.size();
-    int len2 = t.size();
-    for (int i = 0; i < len1; i++) {
-      for (int j = 0; j < len2; j++) {
-        if (t[j] == s[i]) {
-          t[j] = ' ';
-          break;
-        }
-      }
+    auto num = 0;
+    for (int i = 0; i < t.size(); i++) {
+      num += t[i];
     }
-    int e = 0;
-    while (t[e] == ' ') {
-      e++;
+    for (int i = 0; i < s.size(); i++) {
+      num -= s[i];
     }
-    return t[e];
+    return num;
   };
 };
 // @lc code=end
