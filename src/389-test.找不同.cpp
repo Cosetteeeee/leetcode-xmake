@@ -6,6 +6,6 @@ namespace problem {
 
 auto solution = new problem::Solution();
 
-TEST_CASE("2") {
+TEST_CASE("389") {
   CHECK((solution->findTheDifference("abcd", "abcde")) == 'e');
 }
