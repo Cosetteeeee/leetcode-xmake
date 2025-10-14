@@ -6,6 +6,6 @@ namespace problem {
 
 auto solution = new problem::Solution();
 
-TEST_CASE("2") {
+TEST_CASE("242") {
   CHECK((solution->isAnagram("anagram", "nagaram")) == true);
 }
