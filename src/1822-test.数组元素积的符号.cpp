@@ -8,6 +8,6 @@ namespace problem {
 auto solution = new problem::Solution();
 
 TEST_CASE("283") {
-  std::vector<int> nums = {-1,-2,-3,-4,3,2,1};
-    CHECK((solution->arraySign(nums)==1));
+  std::vector<int> nums = {-1, -2, -3, -4, 3, 2, 1};
+  CHECK((solution->arraySign(nums) == 1));
 }
