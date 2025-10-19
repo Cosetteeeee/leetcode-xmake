@@ -6,7 +6,7 @@ namespace problem {
 
 auto solution = new problem::Solution();
 
-TEST_CASE("242") {
+TEST_CASE("1502") {
   std::vector<int> arr = {-68, -96, -12, -40, 16};
   CHECK((solution->canMakeArithmeticProgression(arr)) == true);
 }
