@@ -1,11 +1,11 @@
 {
   "xmake.additionalConfigArguments": ["--my_option=true"],
   "C_Cpp.codeAnalysis.runAutomatically": false,
-  "C_Cpp.intelliSenseEngine": "Disabled",
-  "C_Cpp.formatting": "Disabled",
+  "C_Cpp.intelliSenseEngine": "disabled",
+  "C_Cpp.formatting": "disabled",
   "C_Cpp.autoAddFileAssociations": false,
   "C_Cpp.autocompleteAddParentheses": false,
-  "C_Cpp.autocomplete": "Disabled",
-  "C_Cpp.errorSquiggles": "Disabled",
-  "clangd.arguments": ["--compile-commands-dir=.vscode"],
+  "C_Cpp.autocomplete": "disabled",
+  "C_Cpp.errorSquiggles": "disabled",
+  "clangd.arguments": ["--compile-commands-dir=.vscode"]
 }
