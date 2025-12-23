@@ -6,4 +6,4 @@ namespace problem {
 
 auto solution = new problem::Solution();
 
-TEST_CASE("1768") { CHECK((solution->countOdds(3, 7)) == 3); }
+TEST_CASE("1523") { CHECK((solution->countOdds(3, 7)) == 3); }
