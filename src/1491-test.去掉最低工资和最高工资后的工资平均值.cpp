@@ -6,7 +6,7 @@ namespace problem {
 
 auto solution = new problem::Solution();
 
-TEST_CASE("1502") {
+TEST_CASE("1491") {
   std::vector<int> salary = {4000, 3000, 1000, 2000};
   CHECK((solution->average(salary)) == 2500.00000);
 }
